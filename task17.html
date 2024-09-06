@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Initial array
+let fruits = ["apple", "banana", "mango", "orange", "grape"];
+
+// Remove the element from the middle (removing "mango" at index 2)
+fruits.splice(2, 1);
+
+// Insert a new element at a specific position (inserting "kiwi" at index 1)
+fruits.splice(1, 0, "kiwi");
+
+// Extract a portion of the array (extract elements from index 1 to 3)
+let extractedFruits = fruits.slice(1, 4);
+
+// Display the updated array
+console.log("Updated array:", fruits);
+console.log("Extracted portion:", extractedFruits);
+
+    </script>
+</body>
+</html>
